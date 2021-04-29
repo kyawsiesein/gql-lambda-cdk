@@ -14,14 +14,23 @@
     "@aws-cdk/assert": "1.98.0",
     "@types/jest": "^26.0.10",
     "@types/node": "10.17.27",
+    "aws-cdk": "1.98.0",
     "jest": "^26.4.2",
     "ts-jest": "^26.2.0",
-    "aws-cdk": "1.98.0",
     "ts-node": "^9.0.0",
     "typescript": "~3.9.7"
   },
   "dependencies": {
+    "@aws-cdk/aws-apigateway": "1.98.0",
+    "@aws-cdk/aws-appsync": "1.98",
+    "@aws-cdk/aws-dynamodb": "1.98.0",
+    "@aws-cdk/aws-lambda": "1.98.0",
+    "@aws-cdk/aws-lambda-nodejs": "1.98.0",
     "@aws-cdk/core": "1.98.0",
+    "@types/aws-sdk": "^2.7.0",
+    "apollo-server-lambda": "^2.22.2",
+    "aws-sdk": "^2.894.0",
+    "graphql": "^15.5.0",
     "source-map-support": "^0.5.16"
   }
 }
