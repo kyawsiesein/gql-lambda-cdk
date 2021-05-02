@@ -42,6 +42,6 @@ export class BlogProjectStack extends cdk.Stack {
       },
     });
 
-    blogTable.grantFullAccess(gqlLambdaHandler)
+    blogTable.grantFullAccess(gqlLambdaHandler);
   }
 }
